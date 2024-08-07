@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            font-size:20px ;
+            padding: 10px;
+        }
+        img{
+            margin: 20px;
+            width: 100px;
+            display: none;
+        }
+        .cat:hover~ .catimg,
+        .rat:hover~ .ratimg,
+        .dog:hover~ .dogimg,
+        .elephant:hover~ .elephantimg{
+            display: block;
+
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+    <button class="cat">CaT</button>
+    <button class="rat">Rat</button>
+    <button class="dog">Dog</button>   
+     <button class="elephant">Elephant</button>
+     <img src="../cat.jpg" alt="" class="catimg">
+     <img src="../rat.jpg" alt="" class="ratimg">
+     <img src="../dog.jpg" alt="" class="dogimg">
+     <img src="../elephant.jpg" alt="" class="elephantimg">
+    </div>
+    
+</body>
+</html>
